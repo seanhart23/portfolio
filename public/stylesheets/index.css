@@ -1,0 +1,277 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    background-color: #2b2d30;
+    color: #019fb6;
+}
+.down {
+    height: 100%;
+}
+
+.fa {
+    font-size: 80px;
+    margin-bottom: 15px;
+    color: #019fb6;
+    font-weight: 100;
+}
+
+.header {
+    height: 80%;
+    margin-top: 50px;
+}
+
+.header-alt {
+    height: 100%;
+    padding-top: 100px;
+}
+
+.header-description-alt {
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-name-alt {
+    color: #2b2d30;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+
+.icon {
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15vh;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.navbar button {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: gray!important;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+
+.nav-link:after {
+    display:block;
+    content: '';
+    border: solid 1px #019fb6;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.nav-link:hover:after {
+    transform: scaleX(.75);
+    color: red;
+}
+
+.portfolio-description {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.portfolio-img {
+    width: 100%;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 15px;
+}
+
+.portfolio-item {
+    height: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sectionText {
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.sectionTitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.test {
+    border: 1px solid red;
+    margin-top: 50px;
+}
+
+.textbox {
+    border: none!important;
+    border-bottom: 1px solid lightgray!important;
+    border-radius: 0px!important;
+}
+
+.top {
+    height: 98%;
+}
+
+#about {
+    width: 80%;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+#copyright {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-top: 100px;
+}
+
+#contact {
+}
+
+#down-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#down-image img {
+    height: 50px;
+    margin-top: 70%;
+}
+
+#footer {
+    background-color: #2b2d30;
+    height: 200px;
+    box-shadow: 0px 0px 8px 2px #000000;
+    text-align: center;
+}
+
+#header-description {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-name {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+
+#header-summary {
+    color: #019fb6;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+#image-container {
+    background: url(/images/Seanjo.jpg) left top no-repeat;
+    background-size: cover;
+    box-shadow: 50px 50px 75px 0 #2b2d30 inset, -50px -50px 75px 0 #2b2d30 inset; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    float: right;
+    display:none;
+}
+
+#left-header {
+    text-align: left;
+    margin-top: 3%;
+}
+
+#mainBanner {
+    background-color: #2b2d30;
+    height: 100vh;
+    box-shadow: 0px 0px 8px 2px #000000;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#navbarNav {
+    position: fixed;
+    top: 0;
+    padding-right: 50px;
+    z-index: 1;
+}
+
+#portfolio {
+    height: 100vh;
+    width: 90%;
+}
+
+#test {
+    border: 1px solid red;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 980px) {
+
+.down {
+    visibility: hidden;
+}  
+
+.header-alt {
+    height: 100%;
+    padding-top: 0px;
+}
+
+.header-description-alt {
+    margin-bottom: 50px;
+}
+
+.hidden-mobile {
+    visibility: hidden;
+}
+
+.nav-link:hover:after {
+    transform: scaleX(1);
+    color: red;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.section {
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sectionTitle {
+    margin-bottom: 0px
+}
+
+#contact {
+    width: 90%;
+}
+
+#mainBanner {
+    height: auto;
+}
+
+#navbarNav {
+    position: relative;
+}
+}
