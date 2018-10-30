@@ -30,6 +30,11 @@ body {
     padding-top: 100px;
 }
 
+.header-alt-contact {
+    height: 100%;
+    padding-top: 100px;
+}
+
 .header-description-alt {
     color: black;
     font-size: 15px;
@@ -138,10 +143,11 @@ body {
 #copyright {
     color: white;
     font-family: 'Lato', sans-serif;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 #contact {
+    height: 90vh;
 }
 
 #down-image {
@@ -156,7 +162,7 @@ body {
 
 #footer {
     background-color: #2b2d30;
-    height: 200px;
+    height: 10vh!important;
     box-shadow: 0px 0px 8px 2px #000000;
     text-align: center;
 }
@@ -231,7 +237,16 @@ body {
     visibility: hidden;
 }  
 
+.header {
+    margin-top: 0px;
+}
+
 .header-alt {
+    height: 100%;
+    padding-top: 0px;
+}
+
+.header-alt-contact {
     height: 100%;
     padding-top: 0px;
 }
@@ -242,6 +257,10 @@ body {
 
 .hidden-mobile {
     visibility: hidden;
+}
+
+.navbar {
+    position: fixed;
 }
 
 .nav-link:hover:after {
@@ -265,6 +284,8 @@ body {
 
 #contact {
     width: 90%;
+    height: 100vh;
+    margin-bottom: 10%;
 }
 
 #mainBanner {
