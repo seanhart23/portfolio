@@ -147,7 +147,8 @@ body {
 }
 
 #contact {
-    height: 90vh;
+    height: auto;
+    margin-top:10px;
 }
 
 #down-image {
@@ -222,7 +223,7 @@ body {
 }
 
 #portfolio {
-    height: 100vh;
+    height: auto;
     width: 90%;
 }
 
@@ -286,6 +287,10 @@ body {
     width: 90%;
     height: 100vh;
     margin-bottom: 10%;
+}
+
+#copyright {
+    font-size: 12px;
 }
 
 #mainBanner {
