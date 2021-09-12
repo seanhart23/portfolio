@@ -37,10 +37,6 @@
         font-size: 48px!important;
     }
 
-    .nav-item {
-        /* margin: 0px; */
-    }
-
     .nav-item a {
         text-align: left;
         font-size: 24px;
@@ -71,5 +67,11 @@
     .testimonial {
         height: auto;
         margin-bottom: 25px;
+        padding: 20px 0px;
+    }
+
+    .testimonial-quote {
+        font-size: 16px;
+        padding: 20px 10px;
     }
 }
