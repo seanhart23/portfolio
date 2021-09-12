@@ -1,10 +1,20 @@
 /*** Scroll Transitons ***/
-$(window).scroll(function () {
-    console.log('Scrolling')
-    $('.navbar').toggleClass('scroll-transition', $(this).scrollTop() > 200);
-    $('.navbar-brand').toggleClass('scroll-transition-brand', $(this).scrollTop() > 200);
-    $('.active-link').toggleClass('scroll-transition-border', $(this).scrollTop() > 200);
-});
+if ($(window).width() < 768) {
+    $(window).scroll(function () {
+        console.log('Scrolling')
+        $('.navbar').toggleClass('scroll-transition', $(this).scrollTop() > 50);
+        $('.navbar-brand').toggleClass('scroll-transition-brand', $(this).scrollTop() > 50);
+        $('.active-link').toggleClass('scroll-transition-border', $(this).scrollTop() > 50);
+    });
+}
+else {
+    $(window).scroll(function () {
+        console.log('Scrolling')
+        $('.navbar').toggleClass('scroll-transition', $(this).scrollTop() > 200);
+        $('.navbar-brand').toggleClass('scroll-transition-brand', $(this).scrollTop() > 200);
+        $('.active-link').toggleClass('scroll-transition-border', $(this).scrollTop() > 200);
+    });
+}
 
 function expand_get_started(){
     $('#expand').click();
