@@ -11,15 +11,15 @@
 }
 
 .active-link {
-    border-bottom: 5px solid #60b0f4;
+    border-bottom: 5px solid #6e8c99;
 }
 
 .alt-color-background {
-    background: #60b0f4!important;
+    background: #6e8c99!important;
 }
 
 .alt-color-text {
-    color: #60b0f4!important;
+    color: #6e8c99!important;
 }
 
 .buttons {
@@ -63,7 +63,7 @@
 #footer {
     height: auto;
     padding: 50px 0px;
-    background: #60b0f4;
+    background: #6e8c99;
     width: 100%;
     text-align: center;
     position: relative;
@@ -118,6 +118,7 @@ form input, form textarea, form select {
 
 #get-started .title {
     margin-bottom: 25px;
+    font-size: 24px;
 }
 
 .item {
@@ -129,18 +130,18 @@ form input, form textarea, form select {
 }
 
 .item-content {
-    color: #5a7d9a;
+    color: gray;
     padding-top: 20px;
 }
 
 .item-icon {
     font-size: 30px;
     margin-bottom: 15px;
-    color: #60b0f4;
+    color: #6e8c99;
 }
 
 .item-title {
-    color: #60b0f4;
+    color: #6e8c99;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -156,8 +157,8 @@ label {
 }
 
 .main-button {
-	box-shadow: inset 0px -3px 7px 0px #29bbff;
-	background-color: #2dabf9;
+	box-shadow: inset 0px -3px 7px 0px #6e8c99;
+	background-color: #6e8c99;
 	border-radius: 3px;
 	border: 1px solid white;;
 	display: inline-block;
@@ -174,7 +175,7 @@ label {
 }
 
 .main-button:hover {
-	background-color: rgba(96, 175, 244, .8);
+	background-color: rgba(110, 140, 153, .5);
     border: 1px solid white;
     text-decoration: none;
     color: white;
@@ -241,7 +242,7 @@ label {
 }
 
 .scroll-transition {
-    background: #60aff4;
+    background: #6e8c99;
     box-shadow: 0px 2px 5px black;
     transition: all 300ms ease-in-out;
 }
@@ -258,8 +259,8 @@ label {
 
 .secondary {
     background: rgba(0, 0, 0, .4);
-    border: 1px solid #60aff4;
-    color: #60aff4;
+    border: 1px solid #6e8c99;
+    color: #6e8c99;
     text-shadow: none;
     box-shadow: none;
 }
