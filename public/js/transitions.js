@@ -2,9 +2,9 @@
 if ($(window).width() < 768) {
     $(window).scroll(function () {
         console.log('Scrolling')
-        $('.navbar').toggleClass('scroll-transition', $(this).scrollTop() > 50);
-        $('.navbar-brand').toggleClass('scroll-transition-brand', $(this).scrollTop() > 50);
-        $('.active-link').toggleClass('scroll-transition-border', $(this).scrollTop() > 50);
+        $('.navbar').toggleClass('scroll-transition', $(this).scrollTop() > 0);
+        $('.navbar-brand').toggleClass('scroll-transition-brand', $(this).scrollTop() > 0);
+        $('.active-link').toggleClass('scroll-transition-border', $(this).scrollTop() > 0);
     });
 }
 else {
