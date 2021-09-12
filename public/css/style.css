@@ -60,12 +60,6 @@
     font-weight: 200;
 }
 
-/* .filter {
-    height: 100%;
-    width: 100%;
-    backdrop-filter: grayscale(1) contrast(80%) brightness(20%);
-} */
-
 #footer {
     height: auto;
     padding: 50px 0px;
