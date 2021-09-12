@@ -31,8 +31,8 @@
         line-height: 24px;
     }
 
-    .main-header-content {
-        margin-top: 50px;
+    #main-header-content {
+        padding-top: 125px;
     }
     
     .main-header-text {
