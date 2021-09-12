@@ -60,11 +60,11 @@
     font-weight: 200;
 }
 
-.filter {
+/* .filter {
     height: 100%;
     width: 100%;
     backdrop-filter: grayscale(1) contrast(80%) brightness(20%);
-}
+} */
 
 #footer {
     height: auto;
@@ -234,6 +234,10 @@ label {
     text-align: center;
 }
 
+.nav-item a {
+    font-weight: 400;
+    color: white!important;
+}
 .navbar {
     background: transparent;
     transition: all 300ms ease-in-out;
@@ -256,7 +260,7 @@ label {
 }
 
 .secondary {
-    background: transparent;
+    background: rgba(0, 0, 0, .4);
     border: 1px solid #60aff4;
     color: #60aff4;
     text-shadow: none;
