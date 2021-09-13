@@ -1,7 +1,6 @@
 var express = require('express'),
     router = express.Router(),
-    nodemailer = require('nodemailer'),
-    app = express();
+    nodemailer = require('nodemailer');
 
 /*** Mailer ***/
 router.post('/', (req, res) => {
@@ -16,7 +15,6 @@ router.post('/', (req, res) => {
     })
     const mailOpts = {
         from: 'absideoninteractive@gmail.com',
-        // to: `${req.body.to}`,
         to: 'hello@absideoninteractive.com',
         subject: 'New quote request from your website',
         html: `Name: ${req.body.name} <br>
@@ -28,10 +26,10 @@ router.post('/', (req, res) => {
 
     smtpTrans.sendMail(mailOpts, (error, response) => {
         if (error) {
-            res.render('home')
+            res.redirect('/')
         }
         else {
-            res.render('home')
+            res.redirect('/')
         }
     })
 })
